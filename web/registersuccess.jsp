@@ -38,13 +38,25 @@ HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
       session.setAttribute("birthDate", birthDate);
       %>
 
-    username:<%=username %><br>
-    password:<%=password %><br>
-    email:<%=email %><br>
-    gender:<%=sex %><br>
-    birthDate:<%=birthDate %><br>
-  </form>
 
+    <table allign="center" border="1" width="500" height="200">
+      <tr>
+        <td>Username</td>
+        <td>Password</td>
+        <td>Email</td>
+        <td>Gender</td>
+        <td>Birthday</td>
+      </tr>
+      <tr>
+        <td><%=username %></td>
+        <td><%=password %></td>
+        <td><%=email %></td>
+        <td><%=sex %></td>
+        <td><%=birthDate %>></td>
+      </tr>
+</table>
+
+</form>
 </div>
 </body>
 </html>

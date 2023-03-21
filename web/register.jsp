@@ -44,7 +44,7 @@ HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
     <input name="birthDate" value="Date of birth(yyy-mm-dd)" onfocus="javascript:if(this.value=='birthDate')this.value='';this.type='text'"/>
     <br>
 
-    <input type="submit" value="register">Email
+    <input type="submit" value="register">
 
 
   </form>
